@@ -1,0 +1,5 @@
+## Ren'Py PyPy
+This is a script that will expose PyPy to Ren'Py. Importing stuff from the three exposed folders will be some work; as the specific script might expect some things to be in the namespace that isn't there. If you start running into PyPy wanting to go through the compilation process for something, then good luck. Also lib_py is just `python-lib/2.7` and `python-lib/3` thrown into the same folder with an empty `__init__.py`. The only things that I might actually need is the new `lib_py`, `lib_pypy`, and `py`; so if you really need the other ones, namely `pypy` and `rpython` I would suggest start reading the PyPy documentation to not get too lost in what you are doing. Don't forget to credit!
+
+## Where to get PyPy?
+You can get PyPy from [this link](https://foss.heptapod.net/pypy/pypy/-/tree/branch/stdlib-2.7.16/). Download the entire repository as a zip file.
